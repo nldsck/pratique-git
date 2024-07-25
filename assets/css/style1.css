@@ -1,0 +1,60 @@
+.Modele {
+    display: grid;
+    border:5px solid green;
+    width: 500px;
+    color: white;
+    font-weight:bold;
+    font-size:1.5em;
+    grid-template-columns: repeat(3, 90px);
+    justify-content: center;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+}
+  .boite1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    
+    background-color: blueviolet;
+    
+    border: 5px solid yellow;
+    
+  }
+  
+  .boite2 {
+    grid-column-start: 1;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    background-color: blueviolet;
+    
+    border:5px solid yellow;
+    
+  }
+ .boite3 {
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   background-color: blueviolet;
+
+    border:5px solid yellow;
+  }
+    
+  .boite4 {
+    grid-column-start:  2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: blueviolet;
+    border:5px solid yellow;
+  }
+    
+  .boite5 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: blueviolet;
+    border:5px solid yellow;
+    
+  }
