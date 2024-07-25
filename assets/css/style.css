@@ -1,0 +1,12 @@
+.wrapper {
+    display: grid;
+    border:5px solid green;
+    width: 500px;
+    color: white;
+    font-weight:bold;
+    font-size:1.5em;
+    grid-template-columns: repeat(3, 90px);
+    justify-content: center;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+}
